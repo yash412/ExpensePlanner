@@ -23,7 +23,7 @@ class TransactionList extends StatelessWidget {
                   decoration: BoxDecoration(
                     border: Border.all(
                       width: 2,
-                      color: Colors.pinkAccent,
+                      color: Theme.of(context).primaryColor,
                     ),
                   ),
                   padding: EdgeInsets.all(10),
@@ -32,7 +32,7 @@ class TransactionList extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
-                      color: Colors.pinkAccent,
+                      color: Theme.of(context).primaryColor,
                     ),
                   ),
                 ),
